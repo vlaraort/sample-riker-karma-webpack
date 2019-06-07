@@ -1,0 +1,28 @@
+{
+  "name": "sample-riker-karma-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "lit-element": "^2.1.0"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^0.12.5",
+    "@open-wc/testing-karma": "^2.0.3",
+    "@stryker-mutator/core": "^2.0.0",
+    "@stryker-mutator/html-reporter": "^2.0.0",
+    "@stryker-mutator/javascript-mutator": "^2.0.0",
+    "@stryker-mutator/karma-runner": "^2.0.0",
+    "@stryker-mutator/mocha-framework": "^2.0.0",
+    "owc-dev-server": "^0.4.3",
+    "webpack-merge": "^4.2.1"
+  },
+  "scripts": {
+    "start": "owc-dev-server -o",
+    "test": "karma start --coverage",
+    "mutation": "stryker run",
+    "mutation:log": "stryker run --fileLogLevel trace --logLevel debug"
+  },
+  "author": "Víctor Lara <victorlara@outlook.com>",
+  "license": "ISC"
+}
