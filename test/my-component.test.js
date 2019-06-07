@@ -1,6 +1,4 @@
-/* eslint-disable no-unused-expressions */
 import {
-    html,
     fixture,
     expect,
     fixtureCleanup,

@@ -1,14 +1,13 @@
 {
   "name": "sample-riker-karma-webpack",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "lit-element": "^2.1.0"
   },
   "devDependencies": {
     "@open-wc/testing": "^0.12.5",
-    "@open-wc/testing-karma": "^2.0.3",
+    "@open-wc/testing-karma": "^1.1.2",
     "@stryker-mutator/core": "^2.0.0",
     "@stryker-mutator/html-reporter": "^2.0.0",
     "@stryker-mutator/javascript-mutator": "^2.0.0",
@@ -24,5 +23,17 @@
     "mutation:log": "stryker run --fileLogLevel trace --logLevel debug"
   },
   "author": "Víctor Lara <victorlara@outlook.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlaraort/sample-riker-karma-webpack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vlaraort/sample-riker-karma-webpack/issues"
+  },
+  "homepage": "https://github.com/vlaraort/sample-riker-karma-webpack#readme",
+  "description": ""
 }

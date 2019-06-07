@@ -15,6 +15,7 @@ class MyComponent extends LitElement {
   }
 
   constructor() {
+    // Always call super() first
     super();
     this.foo = 'bar';
     this.num = 4;
