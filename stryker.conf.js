@@ -1,7 +1,7 @@
 module.exports = function(config) {
     config.set({
       mutator: "javascript",
-    //   symlinkNodeModules: true,
+      symlinkNodeModules: true,
       packageManager: "npm",
       reporters: ["clear-text", "progress", "html"],
       testRunner: "karma",

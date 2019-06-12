@@ -8,7 +8,7 @@ class MyComponent extends LitElement {
   }
 
   static get properties() {
-    return { 
+    return {
       foo: { type: String },
       num: { type: Number }
     };
@@ -21,8 +21,12 @@ class MyComponent extends LitElement {
     this.num = 4;
   }
 
-  sum (a, b) {
+  sum(a, b) {
     return a + b + this.num;
+  }
+
+  substract(a, b) {
+    return (a - b);
   }
 }
 
