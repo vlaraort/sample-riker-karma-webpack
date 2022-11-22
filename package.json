@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@open-wc/testing": "^0.12.6",
-    "@open-wc/testing-karma": "^2.0.4",
+    "@open-wc/testing-karma": "^4.0.9",
     "@stryker-mutator/core": "^2.0.0",
     "@stryker-mutator/html-reporter": "^2.0.0",
     "@stryker-mutator/javascript-mutator": "^2.0.0",
